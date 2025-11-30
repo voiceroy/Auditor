@@ -46,7 +46,7 @@ public class RemoteVerifyJob extends JobService {
     private static final String TAG = "RemoteVerifyJob";
     private static final int PERIODIC_JOB_ID = 0;
     private static final int FIRST_RUN_JOB_ID = 1;
-    static final String DOMAIN = "104.198.100.138";
+    static final String DOMAIN = "attestationserver.fly.dev";
     static final String BASE_URL = "https://" + DOMAIN + "/auditor/";
     private static final String CHALLENGE_URL = BASE_URL + "challenge";
     private static final String VERIFY_URL = BASE_URL + "verify";

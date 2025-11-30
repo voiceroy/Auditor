@@ -2,6 +2,6 @@
 <network-security-config>
     <base-config cleartextTrafficPermitted="false"/>
     <domain-config>
-        <domain includeSubdomains="true">104.198.100.138</domain>
+        <domain includeSubdomains="true">attestationserver.fly.dev</domain>
     </domain-config>
 </network-security-config>
