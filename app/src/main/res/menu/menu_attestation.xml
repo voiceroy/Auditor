@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        tools:context="app.attestation.auditor.AttestationActivity">
+        tools:context="app.voiceroy.attestation.auditor.AttestationActivity">
     <item android:id="@+id/action_clear_auditee"
             android:title="@string/action_clear_auditee"
             app:showAsAction="never" />

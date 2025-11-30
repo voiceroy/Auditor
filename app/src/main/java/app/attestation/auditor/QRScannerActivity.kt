@@ -32,7 +32,7 @@ import java.util.concurrent.Executors
 
 class QRScannerActivity : AppCompatActivity() {
     companion object {
-        const val EXTRA_SCAN_RESULT = "app.attestation.auditor.SCAN_RESULT"
+        const val EXTRA_SCAN_RESULT = "app.voiceroy.attestation.auditor.SCAN_RESULT"
         private const val autoCenterFocusDuration = 2000L
     }
 

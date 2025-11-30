@@ -231,15 +231,15 @@ class AttestationProtocol {
             OS_ENFORCED_FLAGS_OEM_UNLOCK_ALLOWED |
             OS_ENFORCED_FLAGS_SYSTEM_USER;
 
-    private static final String AUDITOR_APP_PACKAGE_NAME_RELEASE = "app.attestation.auditor";
-    private static final String AUDITOR_APP_PACKAGE_NAME_PLAY = "app.attestation.auditor.play";
-    private static final String AUDITOR_APP_PACKAGE_NAME_DEBUG = "app.attestation.auditor.debug";
+    private static final String AUDITOR_APP_PACKAGE_NAME_RELEASE = "app.voiceroy.attestation.auditor";
+    private static final String AUDITOR_APP_PACKAGE_NAME_PLAY = "app.voiceroy.attestation.auditor.play";
+    private static final String AUDITOR_APP_PACKAGE_NAME_DEBUG = "app.voiceroy.attestation.auditor.debug";
     private static final String AUDITOR_APP_SIGNATURE_DIGEST_RELEASE =
-            "990E04F0864B19F14F84E0E432F7A393F297AB105A22C1E1B10B442A4A62C42C";
+            "7F9DFB82AD36A131722B942F26CD172B74170E5CEB470FAD126A3C4078879968";
     private static final String AUDITOR_APP_SIGNATURE_DIGEST_PLAY =
-            "075335BD7B54C965222B5284D2A1FDEF1198AE45EC7B09A4934287A0E3A243C7";
+            "7F9DFB82AD36A131722B942F26CD172B74170E5CEB470FAD126A3C4078879968";
     private static final String AUDITOR_APP_SIGNATURE_DIGEST_DEBUG =
-            "17727D8B61D55A864936B1A7B4A2554A15151F32EBCF44CDAA6E6C3258231890";
+            "7F9DFB82AD36A131722B942F26CD172B74170E5CEB470FAD126A3C4078879968";
     private static final byte AUDITOR_APP_VARIANT_RELEASE = 0;
     private static final byte AUDITOR_APP_VARIANT_PLAY = 1;
     private static final byte AUDITOR_APP_VARIANT_DEBUG = 2;
@@ -300,7 +300,7 @@ class AttestationProtocol {
                     new DeviceInfo(R.string.device_pixel_8_pro, 300, 300, false, R.string.os_graphene))
             .put("096B8BD6D44527A24AC1564B308839F67E78202185CBFF9CFDCB10E63250BC5E",
                     new DeviceInfo(R.string.device_pixel_8a, 300, 300, false, R.string.os_graphene))
-            .put("9E6A8F3E0D761A780179F93ACD5721BA1AB7C8C537C7761073C0A754B0E932DE",
+            .put("372E7F041063422BFEFE4E15D56A4273F21A937CA9B7011A297188F45F569DF1",
                     new DeviceInfo(R.string.device_pixel_9, 300, 300, false, R.string.os_graphene))
             .put("F729CAB861DA1B83FDFAB402FC9480758F2AE78EE0B61C1F2137DD1AB7076E86",
                     new DeviceInfo(R.string.device_pixel_9_pro, 300, 300, false, R.string.os_graphene))
@@ -408,7 +408,7 @@ class AttestationProtocol {
                     new DeviceInfo(R.string.device_pixel_8_pro, 300, 300, false, R.string.os_graphene))
             .put("096B8BD6D44527A24AC1564B308839F67E78202185CBFF9CFDCB10E63250BC5E",
                     new DeviceInfo(R.string.device_pixel_8a, 300, 300, false, R.string.os_graphene))
-            .put("9E6A8F3E0D761A780179F93ACD5721BA1AB7C8C537C7761073C0A754B0E932DE",
+            .put("372E7F041063422BFEFE4E15D56A4273F21A937CA9B7011A297188F45F569DF1",
                     new DeviceInfo(R.string.device_pixel_9, 300, 300, false, R.string.os_graphene))
             .put("F729CAB861DA1B83FDFAB402FC9480758F2AE78EE0B61C1F2137DD1AB7076E86",
                     new DeviceInfo(R.string.device_pixel_9_pro, 300, 300, false, R.string.os_graphene))
